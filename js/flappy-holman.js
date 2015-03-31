@@ -179,7 +179,7 @@ main = function() {
     }
   };
   fallsounds = function (sounds) {
-    var sounds = ["sfx/fork.mp3", "sfx/fork.mp3"];
+    var sounds = ["sfx/sheeeit.mp3", "sfx/sheeeit.mp3"];
       var randomSounds = Math.floor(Math.random() * sounds.length);
       var randomSound = sounds[randomSounds];
     return randomSound;
@@ -203,7 +203,7 @@ main = function() {
       audio: {
           flap: ["sfx/push.ogg"],
           laugh: ["sfx/merge.ogg"],
-          fall: ["sfx/fork.ogg"],
+          fall: ["sfx/sheeeit.ogg"],
           swoosh: ["sfx/restart.ogg"]
       }
     };
@@ -222,7 +222,7 @@ main = function() {
         audio: {
           flap: ["sfx/push.mp3"],
           laugh: ["sfx/merge.mp3"],
-          fall: ["sfx/fork.mp3"],
+          fall: ["sfx/sheeeit.mp3"],
           swoosh: ["sfx/restart.mp3"]
         }
       };
